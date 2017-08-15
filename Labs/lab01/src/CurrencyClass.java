@@ -1,0 +1,6 @@
+class Currency {
+	public Currency() {
+		
+	}
+	
+}
