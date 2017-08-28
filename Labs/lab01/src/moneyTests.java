@@ -12,13 +12,15 @@ public class moneyTests {
 	
 	@Before
 	public void setUp() {
+		Currency testCurrency = new Currency("BRL");
+		
 		m10BRL = new Money();
 		m10BRL.setAmount(10);
-		m10BRL.setCurrency("BRL");
+		m10BRL.setCurrency(testCurrency);
 		
 		m5BRL = new Money();
 		m5BRL.setAmount(5);
-		m5BRL.setCurrency("BRL");
+		m5BRL.setCurrency(testCurrency);
 	}
 	
 	@Test
@@ -26,10 +28,10 @@ public class moneyTests {
 		
 		Money sum15BRL = new Money();
 		sum15BRL = m10BRL.add(m5BRL);
-		sum15BRL.setCurrency("BRL");
+		sum15BRL.getCurrency().setStringCurrency("BRL");
 		
 		assertTrue(sum15BRL.getAmount() == 15);
-		assertTrue(sum15BRL.getCurrency() == "BRL");
+		assertTrue(sum15BRL.getCurrency().getStringCurrency() == "BRL");
 	}
 	
 	@Test
@@ -37,9 +39,9 @@ public class moneyTests {
 		
 		Money sum15BRL = new Money();
 		sum15BRL = m10BRL.add(m5BRL);
-		sum15BRL.setCurrency("BRL");
+		sum15BRL.getCurrency().setStringCurrency("BRL");
 		
 		assertEquals(sum15BRL.getAmount(), 15);
-		assertEquals(sum15BRL.getCurrency(), "BRL");
+		assertEquals(sum15BRL.getCurrency().getStringCurrency(), "BRL");
 	}
 }

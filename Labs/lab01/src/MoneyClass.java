@@ -13,12 +13,12 @@ class Money {
 	public void setAmount(int amount) {
 		this._amount = amount;
 	}
-	public String getCurrency() {
+	public Currency getCurrency() {
 		return _currency;
 	}
-	public void setCurrency(String currency) {
+	public void setCurrency(Currency currency) {
 		this._currency = currency;
 	}
 	private int _amount;
-	private String _currency;
+	private Currency _currency;
 }
