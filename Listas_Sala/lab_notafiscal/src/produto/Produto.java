@@ -1,7 +1,5 @@
 package produto;
-public class Produto implements Item {
-	private String _nome;
-	private float _preco;
+public class Produto extends Item {
 	private String _setor;
 	private String _info;
 }
