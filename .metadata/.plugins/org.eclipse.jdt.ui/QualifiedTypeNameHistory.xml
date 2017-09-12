@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.mockito.InjectMocks"/>
-<fullyQualifiedTypeName name="org.mockito.Mock"/>
 <fullyQualifiedTypeName name="org.junit.Before"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
@@ -14,6 +12,12 @@
 <fullyQualifiedTypeName name="produto.Item"/>
 <fullyQualifiedTypeName name="java.util.EmptyStackException"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="org.mockito.Mockito"/>
 <fullyQualifiedTypeName name="produto.BDProduto"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="questao4_p1.Sensor"/>
+<fullyQualifiedTypeName name="org.mockito.Mock"/>
+<fullyQualifiedTypeName name="org.mockito.Mockito"/>
+<fullyQualifiedTypeName name="org.mockito.Matchers"/>
+<fullyQualifiedTypeName name="org.junit.Rule"/>
+<fullyQualifiedTypeName name="org.junit.rules.ExpectedException"/>
 </qualifiedTypeNameHistroy>

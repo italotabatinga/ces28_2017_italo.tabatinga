@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="C:\Users\italo\Desktop\ITA\CES-28\LABMOCK\libs" key="org.eclipse.jdt.ui.lastextjar"/>
-	<item value="C:\Users\italo\Desktop\ITA\CES-28\lei_deDemeter" key="org.eclipse.jdt.ui.last.external.project"/>
+	<item value="C:\Users\italo\Desktop\ITA\CES-28\P1\questao4_p1" key="org.eclipse.jdt.ui.last.external.project"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="false" key="renameSubpackages"/>
 		<item value="false" key="updateQualifiedNames"/>
@@ -9,6 +9,16 @@
 		<item value="false" key="updateSimilarElements"/>
 		<item value="false" key="updateTextualMatches"/>
 		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+	</section>
+	<section name="ProblemSeveritiesConfigurationBlock">
+		<item value="false" key="expanded2"/>
+		<item value="false" key="expanded1"/>
+		<item value="false" key="expanded4"/>
+		<item value="true" key="expanded3"/>
+		<item value="false" key="expanded6"/>
+		<item value="false" key="expanded5"/>
+		<item value="false" key="expanded7"/>
+		<item value="false" key="expanded0"/>
 	</section>
 	<section name="GenerateConstructorUsingFieldsSelectionDialog">
 		<item value="false" key="OmitCallToSuper"/>
@@ -56,6 +66,11 @@
 	</section>
 	<section name="NewPackageWizardPage">
 		<item value="false" key="create_package_info_java"/>
+	</section>
+	<section name="JavaSearchPage">
+		<item value="0" key="HISTORY_SIZE"/>
+		<item value="false" key="CASE_SENSITIVE"/>
+		<item value="11" key="INCLUDE_MASK"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>
