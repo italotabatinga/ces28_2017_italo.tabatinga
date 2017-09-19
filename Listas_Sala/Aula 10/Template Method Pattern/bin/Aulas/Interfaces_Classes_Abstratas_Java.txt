@@ -1,0 +1,6 @@
+Material sobre Interfaces e Classes Abstratas em Java
+
+http://www.devmedia.com.br/interfaces-x-classes-abstratas/13337
+http://www.devmedia.com.br/polimorfismo-classes-abstratas-e-interfaces-fundamentos-da-poo-em-java/26387
+https://www.caelum.com.br/apostila-java-orientacao-objetos/interfaces/
+https://www.caelum.com.br/apostila-java-orientacao-objetos/classes-abstratas/

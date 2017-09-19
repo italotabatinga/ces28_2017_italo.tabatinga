@@ -1,0 +1,6 @@
+TO_DO
+
+voces viram no curso do guerra Introducao ao TDD, os videos "Primeiros Passos no TDD", na week 1
+agora, na week 2, vejam os videos da secao Entendendo o TDD
+
+e leiam o pdf nesse diretorio.

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="lab_notafiscal/teste/|LABMOCK/teste/|Aula4_Mock/src/|P1/questao4_p1/src/|Prova 1/Pub/src/|solid_aula7/src/|P1/questao3_p1/src/|lab_notafiscal/src/|Aula4_Mock/test/|LABMOCK/src/|Aula10/src/|P1/questao4_p1/test/|Prova 1/Pub/test/|aula6_leiDeDemeter/src/|P1/questao3_p1/test/|Aula9/src/|solid_aula7/src/solid_aula7_antes/|Lab1/MoneyJUnitExample/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="Aula10/src"/>
+	<classpathentry kind="src" path="Aula4_Mock/src"/>
+	<classpathentry kind="src" path="Aula4_Mock/test"/>
+	<classpathentry kind="src" path="aula6_leiDeDemeter/src"/>
+	<classpathentry kind="src" path="Aula9/src"/>
+	<classpathentry kind="src" path="lab_notafiscal/src"/>
+	<classpathentry kind="src" path="lab_notafiscal/teste"/>
+	<classpathentry kind="src" path="Lab1/MoneyJUnitExample/src"/>
+	<classpathentry kind="src" path="LABMOCK/src"/>
+	<classpathentry kind="src" path="LABMOCK/teste"/>
+	<classpathentry kind="src" path="P1/questao3_p1/src"/>
+	<classpathentry kind="src" path="P1/questao3_p1/test"/>
+	<classpathentry kind="src" path="P1/questao4_p1/src"/>
+	<classpathentry kind="src" path="P1/questao4_p1/test"/>
+	<classpathentry kind="src" path="Prova 1/Pub/src"/>
+	<classpathentry kind="src" path="Prova 1/Pub/test"/>
+	<classpathentry excluding="solid_aula7_antes/" kind="src" path="solid_aula7/src"/>
+	<classpathentry kind="src" path="solid_aula7/src/solid_aula7_antes"/>
+	<classpathentry kind="output" path="Aula10/bin"/>
+</classpath>
