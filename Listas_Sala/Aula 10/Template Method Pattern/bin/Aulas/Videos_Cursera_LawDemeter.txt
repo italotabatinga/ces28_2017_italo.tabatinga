@@ -1,3 +1,0 @@
-Curso Orientacao a Objetos com Java
-Semana 6 : seção Law of Demeter (2 videos)
-https://www.coursera.org/learn/orientacao-a-objetos-com-java/home/week/6

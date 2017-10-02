@@ -1,5 +1,0 @@
-link gdocs
-https://docs.google.com/presentation/d/1kyGAEXl8STdmBM77u1ufn_vocfYQJkd7cUK6mKiaou0/edit?usp=sharing
-
-link TPP original
-http://blog.8thlight.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html
