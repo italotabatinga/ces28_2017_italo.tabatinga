@@ -12,15 +12,20 @@
 <fullyQualifiedTypeName name="produto.Item"/>
 <fullyQualifiedTypeName name="java.util.EmptyStackException"/>
 <fullyQualifiedTypeName name="produto.BDProduto"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="questao4_p1.Sensor"/>
-<fullyQualifiedTypeName name="org.mockito.Mock"/>
-<fullyQualifiedTypeName name="org.mockito.Mockito"/>
 <fullyQualifiedTypeName name="org.mockito.Matchers"/>
 <fullyQualifiedTypeName name="org.junit.Rule"/>
 <fullyQualifiedTypeName name="org.junit.rules.ExpectedException"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.schemagen.xmlschema.List"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="q4.RelatorioDespesas"/>
+<fullyQualifiedTypeName name="org.mockito.Mock"/>
+<fullyQualifiedTypeName name="org.mockito.Mockito"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="aula10.Singleton"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.io.Console"/>
 </qualifiedTypeNameHistroy>

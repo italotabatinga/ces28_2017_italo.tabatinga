@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="C:\Users\italo\Desktop\ITA\CES-28\LABMOCK\libs" key="org.eclipse.jdt.ui.lastextjar"/>
-	<item value="C:\Users\italo\Desktop\ITA\CES-28\Aula10_composite" key="org.eclipse.jdt.ui.last.external.project"/>
+	<item value="C:\Users\italo\Desktop\ITA\CES-28\Lab3\Lab3" key="org.eclipse.jdt.ui.last.external.project"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="false" key="renameSubpackages"/>
 		<item value="false" key="updateQualifiedNames"/>
@@ -50,6 +50,12 @@
 		<item value="1" key="VisibilityModifier"/>
 		<item value="false" key="FinalModifier"/>
 	</section>
+	<section name="org.eclipse.jdt.internal.ui.typehierarchy.QuickHierarchy">
+		<item value="true" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="380" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_HEIGHT"/>
+		<item value="450" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_WIDTH"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
 	<section name="RefactoringWizard.preview">
 		<item value="600" key="width"/>
 		<item value="400" key="height"/>
@@ -70,7 +76,7 @@
 	<section name="JavaSearchPage">
 		<item value="0" key="HISTORY_SIZE"/>
 		<item value="false" key="CASE_SENSITIVE"/>
-		<item value="11" key="INCLUDE_MASK"/>
+		<item value="15" key="INCLUDE_MASK"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>
