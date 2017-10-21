@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.mockito.InjectMocks"/>
 <fullyQualifiedTypeName name="org.junit.Before"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
@@ -27,7 +26,6 @@
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="java.io.Console"/>
 <fullyQualifiedTypeName name="facade.Facade"/>
-<fullyQualifiedTypeName name="lab3.Person"/>
 <fullyQualifiedTypeName name="java.lang.Error"/>
 <fullyQualifiedTypeName name="ptbr.LetterBuilderPTBR"/>
 <fullyQualifiedTypeName name="lab3.IPerson"/>
@@ -39,6 +37,27 @@
 <fullyQualifiedTypeName name="java.util.Observable"/>
 <fullyQualifiedTypeName name="java.util.Observer"/>
 <fullyQualifiedTypeName name="ptbr.CommercialLetterPTBR"/>
+<fullyQualifiedTypeName name="lab3.PersonalLetter"/>
+<fullyQualifiedTypeName name="ptbr.PersonalLetterPTBR"/>
+<fullyQualifiedTypeName name="ptbr.InterviewInvitationPTBR"/>
+<fullyQualifiedTypeName name="enus.InterviewInvitationENUS"/>
+<fullyQualifiedTypeName name="lab3.InterviewInvitation"/>
+<fullyQualifiedTypeName name="lab3.Languages"/>
+<fullyQualifiedTypeName name="enus.AddressENUS"/>
+<fullyQualifiedTypeName name="ptbr.AddressPTBR"/>
+<fullyQualifiedTypeName name="lab3.Person"/>
+<fullyQualifiedTypeName name="enus.PersonENUS"/>
+<fullyQualifiedTypeName name="ptbr.PersonPTBR"/>
+<fullyQualifiedTypeName name="enus.DateENUS"/>
+<fullyQualifiedTypeName name="ptbr.DatePTBR"/>
+<fullyQualifiedTypeName name="lab3.Address"/>
+<fullyQualifiedTypeName name="lab3.Date"/>
 <fullyQualifiedTypeName name="enus.CommercialLetterENUS"/>
+<fullyQualifiedTypeName name="enus.PersonalLetterENUS"/>
+<fullyQualifiedTypeName name="lab3.Person.PersonBuilder"/>
+<fullyQualifiedTypeName name="lab3.Date.DateBuilder"/>
+<fullyQualifiedTypeName name="lab3.Address.AddressBuilder"/>
 <fullyQualifiedTypeName name="lab3.CommercialLetter"/>
+<fullyQualifiedTypeName name="lab3.Phone"/>
+<fullyQualifiedTypeName name="lab3.PhoneFormat"/>
 </qualifiedTypeNameHistroy>
