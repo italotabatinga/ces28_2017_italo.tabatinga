@@ -23,10 +23,22 @@
 <fullyQualifiedTypeName name="q4.RelatorioDespesas"/>
 <fullyQualifiedTypeName name="org.mockito.Mock"/>
 <fullyQualifiedTypeName name="org.mockito.Mockito"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="aula10.Singleton"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="java.io.Console"/>
 <fullyQualifiedTypeName name="facade.Facade"/>
+<fullyQualifiedTypeName name="lab3.Person"/>
+<fullyQualifiedTypeName name="java.lang.Error"/>
+<fullyQualifiedTypeName name="ptbr.LetterBuilderPTBR"/>
+<fullyQualifiedTypeName name="lab3.IPerson"/>
+<fullyQualifiedTypeName name="lab3.IDate"/>
+<fullyQualifiedTypeName name="lab3.IAddress"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="exercicio11.Observer"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Observable"/>
+<fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="ptbr.CommercialLetterPTBR"/>
+<fullyQualifiedTypeName name="enus.CommercialLetterENUS"/>
+<fullyQualifiedTypeName name="lab3.CommercialLetter"/>
 </qualifiedTypeNameHistroy>

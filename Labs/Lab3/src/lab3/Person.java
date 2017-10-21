@@ -1,43 +1,34 @@
 package lab3;
 
-public class Person {
-	private String firstName;
-	private String lastName;
-	private String phone;
-	private String email;
-	
-	private Person(PersonBuilder builder) {
-		this.firstName = builder.getFirstName();
-		this.lastName = builder.getLastName();
-		this.phone = builder.getPhone();
-		this.email = builder.getEmail();
-	}
-	
-	public String getFirstName() {
-		return firstName;
-	}
-	
-	public String getLastName() {
-		return lastName;
-	}
+import enus.PersonENUS;
+import ptbr.PersonPTBR;
 
-	public String getPhone() {
-		return phone;
-	}
-
-	public String getEmail() {
-		return email;
+public abstract class Person {
+	protected String firstName;
+	protected String lastName;
+	protected String phone;
+	protected String email;
+	protected Languages language;
+	
+	protected Person(PersonBuilder builder) {
+		this.firstName = builder.firstName;
+		this.lastName = builder.lastName;
+		this.phone = builder.phone;
+		this.email = builder.email;
+		this.language = builder.language;
 	}
 	
-	public static class PersonBuilder implements PersonBuilderInterface{
+	public static class PersonBuilder {
 		private String firstName;
 		private String lastName;
 		private String phone;
 		private String email;
+		private Languages language;
 		
 		public PersonBuilder (String firstName, String lastName) {
 			this.firstName = firstName;
 			this.lastName = lastName;
+			language = Languages.ENUS;
 		}
 		
 		public PersonBuilder firstName(String firstName) {
@@ -60,24 +51,32 @@ public class Person {
 			return this;
 		}
 		
+		public PersonBuilder language(Languages language) {
+			this.language = language;
+			return this;
+		}
+		
 		public Person build() {
-			return new Person(this);
+			switch (this.language) {
+				case PTBR:
+					return new PersonPTBR(this);
+				case ENUS:
+					return new PersonENUS(this);
+				default:
+					return null;
+			}	
 		}
+	}
+	
+	public String getFirstName() {
+		return this.firstName;
+	}
+	
+	public abstract String getName();
 
-		public String getFirstName() {
-			return firstName;
-		}
-		
-		public String getLastName() {
-			return lastName;
-		}
-		
-		public String getPhone() {
-			return phone;
-		}
-		
-		public String getEmail() {
-			return email;
-		}
+	public abstract String getPhone();
+
+	public String getEmail() {
+		return this.email;
 	}
 }
