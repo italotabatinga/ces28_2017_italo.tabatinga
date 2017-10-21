@@ -1,6 +1,9 @@
 package lab3;
 
 import enus.CommercialLetterENUS;
+import lab3.Address.AddressBuilder;
+import lab3.Date.DateBuilder;
+import lab3.Person.PersonBuilder;
 import ptbr.CommercialLetterPTBR;
 
 public abstract class CommercialLetter {
@@ -21,9 +24,15 @@ public abstract class CommercialLetter {
 		_language = language;
 	}
 	
-	public static CommercialLetter getLetter(Languages language, Person sender, Person destinatary,
-			Address senderAddress, Address destinataryAddress, Date date) {
+	public static CommercialLetter getLetter(Languages language, PersonBuilder senderB, PersonBuilder destinataryB,
+			AddressBuilder senderAddressB, AddressBuilder destinataryAddressB, DateBuilder dateB) {
 		CommercialLetter letter = null;
+		Person sender = senderB.language(language).build();
+		Person destinatary = destinataryB.language(language).build();
+		Address senderAddress = senderAddressB.language(language).build();
+		Address destinataryAddress = destinataryAddressB.language(language).build();
+		Date date = dateB.language(language).build();
+		
 		switch(language) {
 			case PTBR:
 				letter = new CommercialLetterPTBR(sender, destinatary, senderAddress, destinataryAddress, date);

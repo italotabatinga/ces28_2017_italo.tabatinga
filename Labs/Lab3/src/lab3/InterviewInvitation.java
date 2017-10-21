@@ -1,9 +1,11 @@
 package lab3;
 
-import enus.CommercialLetterENUS;
 import enus.InterviewInvitationENUS;
-import ptbr.CommercialLetterPTBR;
+import lab3.Address.AddressBuilder;
+import lab3.Date.DateBuilder;
+import lab3.Person.PersonBuilder;
 import ptbr.InterviewInvitationPTBR;
+
 
 public abstract class InterviewInvitation{
 	protected String _position;
@@ -27,9 +29,17 @@ public abstract class InterviewInvitation{
 		_language = language;
 	}
 	
-	public static InterviewInvitation getLetter(Languages language, Person sender, Person destinatary,
-			Address senderAddress, Address destinataryAddress, Date date, String position, Date interviewDate) {
+	public static InterviewInvitation getLetter(Languages language, PersonBuilder senderB, PersonBuilder destinataryB,
+			AddressBuilder senderAddressB, AddressBuilder destinataryAddressB, DateBuilder dateB, String position,
+			DateBuilder interviewDateB) {
 		InterviewInvitation letter = null;
+		Person sender = senderB.language(language).build();
+		Person destinatary = destinataryB.language(language).build();
+		Address senderAddress = senderAddressB.language(language).build();
+		Address destinataryAddress = destinataryAddressB.language(language).build();
+		Date date = dateB.language(language).build();
+		Date interviewDate = interviewDateB.language(language).build();
+		
 		switch(language) {
 			case PTBR:
 				letter = new InterviewInvitationPTBR(sender, destinatary, senderAddress, destinataryAddress, date,
