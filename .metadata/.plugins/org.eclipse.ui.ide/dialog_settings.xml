@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\italo\Desktop\ITA\CES-28\Aula12\MercadoWQV5Proxy"/>
+		<item value="C:\Users\italo\Desktop\ITA\CES-28\Aula12\MercadoWQV4NameEvtSrvs"/>
+		<item value="C:\Users\italo\Desktop\ITA\CES-28\Aula12\MercadoWQV3NameService"/>
+		<item value="C:\Users\italo\Desktop\ITA\CES-28\Aula12\MercadoWQV2Singleton"/>
+		<item value="C:\Users\italo\Desktop\ITA\CES-28\Aula12\MercadoWQ"/>
 		<item value="C:\Users\italo\Desktop\ITA\CES-28\Prova 1\Pub"/>
 		<item value="C:\Users\italo\Desktop\ITA\CES-28\lei_deDemeter"/>
 	</list>
