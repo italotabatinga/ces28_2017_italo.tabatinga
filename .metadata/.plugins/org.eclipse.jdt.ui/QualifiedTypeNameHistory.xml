@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="cliente.BDCliente"/>
-<fullyQualifiedTypeName name="org.mockito.MockitoAnnotations"/>
-<fullyQualifiedTypeName name="cliente.VerificadorCPF"/>
-<fullyQualifiedTypeName name="produto.Item"/>
-<fullyQualifiedTypeName name="java.util.EmptyStackException"/>
-<fullyQualifiedTypeName name="produto.BDProduto"/>
-<fullyQualifiedTypeName name="questao4_p1.Sensor"/>
 <fullyQualifiedTypeName name="org.mockito.Matchers"/>
 <fullyQualifiedTypeName name="org.junit.Rule"/>
 <fullyQualifiedTypeName name="org.junit.rules.ExpectedException"/>
@@ -28,7 +19,6 @@
 <fullyQualifiedTypeName name="lab3.IPerson"/>
 <fullyQualifiedTypeName name="lab3.IDate"/>
 <fullyQualifiedTypeName name="lab3.IAddress"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="exercicio11.Observer"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Observable"/>
@@ -60,4 +50,14 @@
 <fullyQualifiedTypeName name="Infraestrutura.IMercado"/>
 <fullyQualifiedTypeName name="Infraestrutura.FakeNameService"/>
 <fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="presenter.PersonDetailPresenterImpl"/>
+<fullyQualifiedTypeName name="nota_fiscal.ItemDeVenda"/>
+<fullyQualifiedTypeName name="bd.BDNotaFiscal"/>
+<fullyQualifiedTypeName name="bd.FacadeBDNotaFiscal"/>
+<fullyQualifiedTypeName name="bd.FacadeBDImposto"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="produtoservico.ProdutoServico"/>
+<fullyQualifiedTypeName name="imposto.Imposto"/>
+<fullyQualifiedTypeName name="nota_fiscal.ValidadorNotaFiscal"/>
+<fullyQualifiedTypeName name="imposto.CategoriaTributaria"/>
 </qualifiedTypeNameHistroy>
